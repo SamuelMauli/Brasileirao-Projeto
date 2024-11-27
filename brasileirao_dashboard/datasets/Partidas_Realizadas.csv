@@ -1,0 +1,330 @@
+Rodada,Mandante,Placar_Mandante,Placar_Visitante,Visitante,Estadio,Data,Dia,Hora
+1,Vitória,0,1,Palmeiras,Barradão,14/04,Domingo,18:30
+1,Internacional,2,1,Bahia,Beira-Rio,13/04,Sábado,18:30
+1,Criciúma,1,1,Juventude,Heriberto Hülse,13/04,Sábado,18:30
+1,Fluminense,2,2,Bragantino,Maracanã,13/04,Sábado,21:00
+1,São Paulo,1,2,Fortaleza,Morumbis,13/04,Sábado,21:00
+1,Cruzeiro,3,2,Botafogo,Mineirão,14/04,Domingo,17:00
+1,Corinthians,0,0,Atlético-MG,Neo Química Arena,14/04,Domingo,16:00
+1,Athletico-PR,4,0,Cuiabá,Ligga Arena,14/04,Domingo,16:00
+1,Atlético-GO,1,2,Flamengo,Serra Dourada,14/04,Domingo,16:00
+1,Vasco,2,1,Grêmio,São Januário,14/04,Domingo,16:00
+2,Bahia,2,1,Fluminense,Casa de Apostas Arena Fonte Nova,16/04,Terça,21:30
+2,Grêmio,2,0,Athletico-PR,Arena do Grêmio,17/04,Quarta,19:00
+2,Bragantino,2,1,Vasco,Nabi Abi Chedid,17/04,Quarta,19:00
+2,Atlético-MG,1,1,Criciúma,Arena MRV,17/04,Quarta,20:00
+2,Palmeiras,0,1,Internacional,Arena Barueri,17/04,Quarta,20:00
+2,Fortaleza,1,1,Cruzeiro,Castelão (CE),17/04,Quarta,20:00
+2,Juventude,2,0,Corinthians,Alfredo Jaconi,17/04,Quarta,20:00
+2,Flamengo,2,1,São Paulo,Maracanã,17/04,Quarta,21:30
+2,Botafogo,1,0,Atlético-GO,Nilton Santos (Engenhão),18/04,Quinta,21:30
+2,Cuiabá,0,0,Vitória,Arena Pantanal,05/06,Quarta,20:00
+3,Fluminense,2,1,Vasco,Maracanã,20/04,Sábado,16:00
+3,Grêmio,1,0,Cuiabá,Arena do Grêmio,20/04,Sábado,18:30
+3,Bragantino,1,0,Corinthians,Nabi Abi Chedid,20/04,Sábado,18:30
+3,Atlético-MG,3,0,Cruzeiro,Arena MRV,20/04,Sábado,21:00
+3,Vitória,2,2,Bahia,Barradão,21/04,Domingo,16:00
+3,Palmeiras,0,0,Flamengo,Allianz Parque,21/04,Domingo,16:00
+3,Athletico-PR,1,0,Internacional,Ligga Arena,21/04,Domingo,16:00
+3,Botafogo,5,1,Juventude,Nilton Santos (Engenhão),21/04,Domingo,18:30
+3,Atlético-GO,0,3,São Paulo,Antônio Accioly,21/04,Domingo,18:30
+3,Criciúma,1,1,Fortaleza,Heriberto Hülse,24/07,Quarta,19:00
+4,Vasco,0,4,Criciúma,São Januário,27/04,Sábado,16:00
+4,Cuiabá,0,3,Atlético-MG,Arena Pantanal,27/04,Sábado,18:30
+4,Bahia,1,0,Grêmio,Casa de Apostas Arena Fonte Nova,27/04,Sábado,21:00
+4,Flamengo,0,2,Botafogo,Maracanã,28/04,Domingo,11:00
+4,Cruzeiro,3,1,Vitória,Mineirão,28/04,Domingo,16:00
+4,Corinthians,3,0,Fluminense,Neo Química Arena,28/04,Domingo,16:00
+4,Fortaleza,1,1,Bragantino,Castelão (CE),28/04,Domingo,18:30
+4,Juventude,1,1,Athletico-PR,Alfredo Jaconi,28/04,Domingo,18:30
+4,Internacional,1,1,Atlético-GO,Beira-Rio,28/04,Domingo,20:00
+4,São Paulo,0,0,Palmeiras,Morumbis,29/04,Segunda,20:00
+5,Fluminense,2,2,Atlético-MG,Kleber Andrade,04/05,Sábado,16:00
+5,Bragantino,1,1,Flamengo,Nabi Abi Chedid,04/05,Sábado,18:30
+5,Corinthians,0,0,Fortaleza,Neo Química Arena,04/05,Sábado,21:00
+5,Vitória,1,3,São Paulo,Barradão,05/05,Domingo,16:00
+5,Grêmio,X,X,Criciúma,Arena do Grêmio,25/09,Quarta,19:00
+5,Botafogo,1,2,Bahia,Nilton Santos (Engenhão),05/05,Domingo,18:30
+5,Cuiabá,0,2,Palmeiras,Arena Pantanal,05/05,Domingo,18:30
+5,Juventude,1,0,Atlético-GO,Alfredo Jaconi,05/06,Quarta,19:00
+5,Cruzeiro,0,0,Internacional,Mineirão,28/08,Quarta,19:30
+5,Athletico-PR,1,0,Vasco,Ligga Arena,05/05,Domingo,16:00
+6,Flamengo,2,0,Corinthians,Maracanã,11/05,Sábado,16:00
+6,Palmeiras,0,2,Athletico-PR,Arena Barueri,12/05,Domingo,16:00
+6,Fortaleza,1,1,Botafogo,Castelão (CE),12/05,Domingo,16:00
+6,Atlético-GO,0,1,Cruzeiro,Antônio Accioly,12/05,Domingo,16:00
+6,Bahia,1,0,Bragantino,Casa de Apostas Arena Fonte Nova,12/05,Domingo,18:30
+6,Vasco,2,1,Vitória,São Januário,12/05,Domingo,18:30
+6,São Paulo,2,1,Fluminense,Morumbis,13/05,Segunda,20:00
+6,Criciúma,2,5,Cuiabá,Heriberto Hülse,09/06,Domingo,16:00
+6,Internacional,2,1,Juventude,Beira-Rio,14/08,Quarta,19:30
+6,Atlético-MG,X,X,Grêmio,Arena MRV,,,
+7,Grêmio,0,2,Bragantino,Couto Pereira,01/06,Sábado,16:00
+7,Vitória,0,2,Atlético-GO,Barradão,01/06,Sábado,16:00
+7,Fluminense,1,1,Juventude,Maracanã,01/06,Sábado,18:30
+7,Cuiabá,0,1,Internacional,Arena Pantanal,01/06,Sábado,18:30
+7,Fortaleza,1,0,Athletico-PR,Presidente Vargas (CE),02/06,Domingo,18:30
+7,Atlético-MG,1,1,Bahia,Arena MRV,02/06,Domingo,16:00
+7,Vasco,1,6,Flamengo,Maracanã,02/06,Domingo,16:00
+7,Criciúma,1,2,Palmeiras,Heriberto Hülse,02/06,Domingo,16:00
+7,São Paulo,2,0,Cruzeiro,Morumbis,02/06,Domingo,18:30
+7,Corinthians,0,1,Botafogo,Neo Química Arena,01/06,Sábado,21:00
+8,Atlético-GO,2,2,Corinthians,Antônio Accioly,11/06,Terça,19:00
+8,Juventude,1,1,Vitória,Alfredo Jaconi,11/06,Terça,19:00
+8,Botafogo,1,0,Fluminense,Nilton Santos (Engenhão),11/06,Terça,20:00
+8,Cruzeiro,2,1,Cuiabá,Mineirão,13/06,Quinta,19:00
+8,Bragantino,1,2,Atlético-MG,Nabi Abi Chedid,11/06,Terça,21:30
+8,Flamengo,2,1,Grêmio,Maracanã,13/06,Quinta,20:00
+8,Athletico-PR,3,1,Criciúma,Ligga Arena,13/06,Quinta,20:00
+8,Bahia,1,0,Fortaleza,Casa de Apostas Arena Fonte Nova,13/06,Quinta,21:30
+8,Palmeiras,2,0,Vasco,Allianz Parque,13/06,Quinta,21:30
+8,Internacional,0,0,São Paulo,Heriberto Hülse,13/06,Quinta,20:00
+9,Bragantino,2,1,Juventude,Nabi Abi Chedid,15/06,Sábado,18:30
+9,Fluminense,1,2,Atlético-GO,Maracanã,15/06,Sábado,21:00
+9,Vitória,2,1,Internacional,Barradão,16/06,Domingo,16:00
+9,Corinthians,2,2,São Paulo,Neo Química Arena,16/06,Domingo,16:00
+9,Athletico-PR,1,1,Flamengo,Ligga Arena,16/06,Domingo,16:00
+9,Grêmio,1,2,Botafogo,Kleber Andrade,16/06,Domingo,18:30
+9,Vasco,0,0,Cruzeiro,São Januário,16/06,Domingo,18:30
+9,Cuiabá,5,0,Fortaleza,Arena Pantanal,16/06,Domingo,18:30
+9,Criciúma,2,2,Bahia,Heriberto Hülse,16/06,Domingo,18:30
+9,Atlético-MG,0,4,Palmeiras,Arena MRV,17/06,Segunda,20:30
+10,Botafogo,1,1,Athletico-PR,Nilton Santos (Engenhão),19/06,Quarta,19:00
+10,Atlético-GO,1,2,Criciúma,Antônio Accioly,19/06,Quarta,19:00
+10,São Paulo,0,1,Cuiabá,Morumbis,19/06,Quarta,20:00
+10,Fortaleza,1,0,Grêmio,Castelão (CE),19/06,Quarta,20:00
+10,Juventude,2,0,Vasco,Alfredo Jaconi,19/06,Quarta,20:00
+10,Internacional,1,0,Corinthians,Orlando Scarpelli,19/06,Quarta,21:30
+10,Cruzeiro,2,0,Fluminense,Mineirão,19/06,Quarta,21:30
+10,Vitória,4,2,Atlético-MG,Barradão,20/06,Quinta,18:30
+10,Flamengo,2,1,Bahia,Maracanã,20/06,Quinta,20:00
+10,Palmeiras,2,1,Bragantino,Allianz Parque,20/06,Quinta,21:30
+11,Criciúma,2,1,Botafogo,Heriberto Hülse,22/06,Sábado,16:00
+11,Grêmio,0,1,Internacional,Couto Pereira,22/06,Sábado,17:30
+11,Cuiabá,0,0,Atlético-GO,Arena Pantanal,22/06,Sábado,18:30
+11,Vasco,4,1,São Paulo,São Januário,22/06,Sábado,21:30
+11,Bahia,4,1,Cruzeiro,Casa de Apostas Arena Fonte Nova,23/06,Domingo,16:00
+11,Fluminense,0,1,Flamengo,Maracanã,23/06,Domingo,16:00
+11,Athletico-PR,1,1,Corinthians,Ligga Arena,23/06,Domingo,16:00
+11,Atlético-MG,1,1,Fortaleza,Arena MRV,23/06,Domingo,18:30
+11,Palmeiras,3,1,Juventude,Allianz Parque,23/06,Domingo,18:30
+11,Bragantino,2,1,Vitória,Nabi Abi Chedid,23/06,Domingo,18:30
+12,Cruzeiro,2,0,Athletico-PR,Mineirão,26/06,Quarta,19:00
+12,Botafogo,2,1,Bragantino,Nilton Santos (Engenhão),26/06,Quarta,19:00
+12,Corinthians,1,1,Cuiabá,Neo Química Arena,26/06,Quarta,20:00
+12,Atlético-GO,1,1,Grêmio,Antônio Accioly,26/06,Quarta,20:00
+12,São Paulo,2,1,Criciúma,Morumbis,27/06,Quinta,20:00
+12,Internacional,1,2,Atlético-MG,Heriberto Hülse,26/06,Quarta,21:30
+12,Bahia,2,1,Vasco,Casa de Apostas Arena Fonte Nova,26/06,Quarta,21:30
+12,Fortaleza,3,0,Palmeiras,Castelão (CE),26/06,Quarta,21:30
+12,Fluminense,0,1,Vitória,Maracanã,27/06,Quinta,19:00
+12,Juventude,2,1,Flamengo,Alfredo Jaconi,26/06,Quarta,20:00
+13,Vasco,1,1,Botafogo,São Januário,29/06,Sábado,18:30
+13,Cuiabá,1,1,Bragantino,Arena Pantanal,29/06,Sábado,18:30
+13,Atlético-MG,1,1,Atlético-GO,Arena MRV,30/06,Domingo,11:00
+13,Grêmio,1,0,Fluminense,Centenário,30/06,Domingo,16:00
+13,São Paulo,3,1,Bahia,Morumbis,30/06,Domingo,16:00
+13,Fortaleza,2,1,Juventude,Castelão (CE),30/06,Domingo,16:00
+13,Vitória,0,1,Athletico-PR,Barradão,30/06,Domingo,18:30
+13,Flamengo,2,1,Cruzeiro,Maracanã,30/06,Domingo,18:30
+13,Criciúma,1,1,Internacional,Heriberto Hülse,30/06,Domingo,18:30
+13,Palmeiras,2,0,Corinthians,Allianz Parque,01/07,Segunda,20:00
+14,Cuiabá,1,2,Botafogo,Arena Pantanal,03/07,Quarta,19:00
+14,Vasco,2,0,Fortaleza,São Januário,03/07,Quarta,20:00
+14,Criciúma,1,0,Cruzeiro,Heriberto Hülse,03/07,Quarta,20:00
+14,Atlético-MG,2,4,Flamengo,Arena MRV,03/07,Quarta,21:30
+14,Corinthians,3,2,Vitória,Neo Química Arena,04/07,Quinta,20:00
+14,Athletico-PR,1,2,São Paulo,Ligga Arena,03/07,Quarta,21:30
+14,Grêmio,2,2,Palmeiras,Centenário,04/07,Quinta,19:00
+14,Bahia,2,0,Juventude,Casa de Apostas Arena Fonte Nova,04/07,Quinta,19:00
+14,Fluminense,1,1,Internacional,Maracanã,04/07,Quinta,20:00
+14,Bragantino,3,1,Atlético-GO,Nabi Abi Chedid,03/07,Quarta,21:30
+15,Botafogo,3,0,Atlético-MG,Nilton Santos (Engenhão),07/07,Domingo,20:30
+15,Atlético-GO,1,2,Athletico-PR,Antônio Accioly,07/07,Domingo,18:30
+15,Palmeiras,2,0,Bahia,Allianz Parque,07/07,Domingo,18:30
+15,Vitória,2,1,Criciúma,Barradão,07/07,Domingo,18:30
+15,Internacional,1,2,Vasco,Beira-Rio,07/07,Domingo,18:00
+15,Juventude,3,0,Grêmio,Alfredo Jaconi,07/07,Domingo,16:00
+15,Cruzeiro,3,0,Corinthians,Mineirão,07/07,Domingo,16:00
+15,São Paulo,2,0,Bragantino,Morumbis,06/07,Sábado,20:00
+15,Flamengo,1,1,Cuiabá,Maracanã,06/07,Sábado,20:00
+15,Fortaleza,1,0,Fluminense,Castelão (CE),07/07,Domingo,16:00
+16,Grêmio,0,2,Cruzeiro,Centenário,10/07,Quarta,18:30
+16,Vasco,2,0,Corinthians,São Januário,10/07,Quarta,19:00
+16,Athletico-PR,1,3,Bahia,Ligga Arena,10/07,Quarta,19:00
+16,Palmeiras,3,1,Atlético-GO,Allianz Parque,11/07,Quinta,19:30
+16,Flamengo,1,2,Fortaleza,Maracanã,11/07,Quinta,20:00
+16,Criciúma,1,1,Fluminense,Heriberto Hülse,11/07,Quinta,20:00
+16,Atlético-MG,2,1,São Paulo,Arena MRV,11/07,Quinta,21:30
+16,Vitória,0,1,Botafogo,Barradão,11/07,Quinta,21:30
+16,Cuiabá,0,0,Juventude,Arena Pantanal,05/09,Quinta,20:00
+16,Bragantino,X,X,Internacional,Nabi Abi Chedid,25/09,Quarta,19:00
+17,Cruzeiro,2,1,Bragantino,Independência,13/07,Sábado,16:00
+17,Bahia,1,2,Cuiabá,Casa de Apostas Arena Fonte Nova,13/07,Sábado,16:00
+17,Juventude,1,1,Atlético-MG,Mané Garrincha,16/07,Terça,19:00
+17,Corinthians,2,1,Criciúma,Neo Química Arena,16/07,Terça,21:00
+17,Atlético-GO,0,1,Vasco,Antônio Accioly,17/07,Quarta,19:00
+17,São Paulo,1,0,Grêmio,Morumbis,17/07,Quarta,20:00
+17,Botafogo,1,0,Palmeiras,Nilton Santos (Engenhão),17/07,Quarta,21:30
+17,Fortaleza,3,1,Vitória,Castelão (CE),17/07,Quarta,21:30
+17,Internacional,X,X,Flamengo,Beira-Rio,,,
+17,Fluminense,X,X,Athletico-PR,Maracanã,,,
+18,Flamengo,2,1,Criciúma,Mané Garrincha,20/07,Sábado,16:00
+18,Botafogo,1,0,Internacional,Nilton Santos (Engenhão),20/07,Sábado,18:30
+18,Palmeiras,2,0,Cruzeiro,Allianz Parque,20/07,Sábado,21:00
+18,Grêmio,2,0,Vitória,Centenário,21/07,Domingo,11:00
+18,Atlético-MG,2,0,Vasco,Arena MRV,21/07,Domingo,16:00
+18,Bahia,0,1,Corinthians,Casa de Apostas Arena Fonte Nova,21/07,Domingo,16:00
+18,Bragantino,1,0,Athletico-PR,Nabi Abi Chedid,21/07,Domingo,18:30
+18,Fortaleza,3,1,Atlético-GO,Castelão (CE),21/07,Domingo,18:30
+18,Juventude,0,0,São Paulo,Mané Garrincha,21/07,Domingo,18:30
+18,Cuiabá,0,1,Fluminense,Arena Pantanal,21/07,Domingo,20:00
+19,Cruzeiro,2,0,Juventude,Mineirão,24/07,Quarta,19:00
+19,São Paulo,2,2,Botafogo,Morumbis,24/07,Quarta,19:30
+19,Vitória,1,2,Flamengo,Barradão,24/07,Quarta,20:00
+19,Fluminense,1,0,Palmeiras,Maracanã,24/07,Quarta,21:30
+19,Athletico-PR,X,X,Atlético-MG,Ligga Arena,,,
+19,Corinthians,2,2,Grêmio,Neo Química Arena,25/07,Quinta,20:00
+19,Criciúma,1,0,Bragantino,Heriberto Hülse,28/08,Quarta,19:30
+19,Internacional,2,1,Fortaleza,Beira-Rio,11/09,Quarta,19:30
+19,Vasco,X,X,Cuiabá,São Januário,23/10,Quarta,19:00
+19,Atlético-GO,1,1,Bahia,Antônio Accioly,24/07,Quarta,21:30
+20,Palmeiras,0,2,Vitória,Allianz Parque,27/07,Sábado,19:00
+20,Juventude,1,2,Criciúma,Alfredo Jaconi,27/07,Sábado,19:00
+20,Bahia,1,1,Internacional,Casa de Apostas Arena Fonte Nova,27/07,Sábado,20:00
+20,Botafogo,0,3,Cruzeiro,Nilton Santos (Engenhão),27/07,Sábado,21:30
+20,Fortaleza,1,0,São Paulo,Castelão (CE),27/07,Sábado,21:30
+20,Bragantino,0,1,Fluminense,Nabi Abi Chedid,28/07,Domingo,11:00
+20,Flamengo,2,0,Atlético-GO,Maracanã,28/07,Domingo,16:00
+20,Grêmio,1,0,Vasco,Arena Condá,28/07,Domingo,19:00
+20,Atlético-MG,2,1,Corinthians,Arena MRV,28/07,Domingo,19:00
+20,Cuiabá,1,2,Athletico-PR,Arena Pantanal,28/07,Domingo,19:00
+21,Vitória,1,0,Cuiabá,Barradão,03/08,Sábado,16:00
+21,Vasco,2,2,Bragantino,São Januário,03/08,Sábado,19:00
+21,Atlético-GO,1,4,Botafogo,Antônio Accioly,03/08,Sábado,20:00
+21,Criciúma,2,1,Atlético-MG,Heriberto Hülse,03/08,Sábado,20:00
+21,Cruzeiro,1,2,Fortaleza,Kleber Andrade,05/08,Segunda,21:00
+21,Fluminense,1,0,Bahia,Maracanã,04/08,Domingo,16:00
+21,Corinthians,1,1,Juventude,Neo Química Arena,04/08,Domingo,16:00
+21,Athletico-PR,0,2,Grêmio,Ligga Arena,04/08,Domingo,16:00
+21,Internacional,1,1,Palmeiras,Beira-Rio,04/08,Domingo,17:00
+21,São Paulo,1,0,Flamengo,Morumbis,03/08,Sábado,21:30
+22,Fortaleza,1,0,Criciúma,Castelão (CE),10/08,Sábado,16:00
+22,Vasco,2,0,Fluminense,Nilton Santos (Engenhão),10/08,Sábado,21:30
+22,Cruzeiro,0,0,Atlético-MG,Mineirão,10/08,Sábado,21:30
+22,Corinthians,1,1,Bragantino,Neo Química Arena,10/08,Sábado,21:30
+22,Cuiabá,1,3,Grêmio,Arena Pantanal,10/08,Sábado,19:00
+22,Bahia,2,0,Vitória,Casa de Apostas Arena Fonte Nova,11/08,Domingo,16:00
+22,Internacional,2,2,Athletico-PR,Beira-Rio,11/08,Domingo,19:00
+22,Juventude,3,2,Botafogo,Alfredo Jaconi,11/08,Domingo,11:00
+22,Flamengo,1,1,Palmeiras,Maracanã,11/08,Domingo,16:00
+22,São Paulo,1,0,Atlético-GO,Morumbis,11/08,Domingo,16:00
+23,Vitória,2,2,Cruzeiro,Barradão,19/08,Segunda,20:00
+23,Athletico-PR,1,2,Juventude,Ligga Arena,18/08,Domingo,18:30
+23,Botafogo,4,1,Flamengo,Nilton Santos (Engenhão),18/08,Domingo,18:30
+23,Criciúma,2,2,Vasco,Heriberto Hülse,18/08,Domingo,16:00
+23,Atlético-GO,1,0,Internacional,Antônio Accioly,18/08,Domingo,16:00
+23,Fluminense,0,0,Corinthians,Maracanã,17/08,Sábado,21:00
+23,Bragantino,1,2,Fortaleza,Nabi Abi Chedid,17/08,Sábado,18:30
+23,Atlético-MG,1,1,Cuiabá,Arena MRV,17/08,Sábado,16:00
+23,Grêmio,0,2,Bahia,Alfredo Jaconi,17/08,Sábado,16:00
+23,Palmeiras,2,1,São Paulo,Allianz Parque,18/08,Domingo,16:00
+24,Bahia,0,0,Botafogo,Casa de Apostas Arena Fonte Nova,25/08,Domingo,16:00
+24,Atlético-GO,2,1,Juventude,Antônio Accioly,24/08,Sábado,16:00
+24,Palmeiras,5,0,Cuiabá,Brinco de Ouro,24/08,Sábado,18:30
+24,Atlético-MG,0,2,Fluminense,Mineirão,24/08,Sábado,21:00
+24,Fortaleza,1,0,Corinthians,Castelão (CE),25/08,Domingo,16:00
+24,São Paulo,2,1,Vitória,Morumbis,25/08,Domingo,18:30
+24,Internacional,1,0,Cruzeiro,Beira-Rio,25/08,Domingo,19:00
+24,Flamengo,2,1,Bragantino,Maracanã,25/08,Domingo,20:00
+24,Vasco,2,1,Athletico-PR,São Januário,26/08,Segunda,21:00
+24,Criciúma,0,1,Grêmio,Heriberto Hülse,25/08,Domingo,16:00
+25,Cuiabá,2,1,Criciúma,Arena Pantanal,31/08,Sábado,18:30
+25,Botafogo,2,0,Fortaleza,Nilton Santos (Engenhão),31/08,Sábado,21:00
+25,Grêmio,2,3,Atlético-MG,Arena do Grêmio,01/09,Domingo,11:00
+25,Cruzeiro,3,1,Atlético-GO,Mineirão,01/09,Domingo,11:00
+25,Corinthians,2,1,Flamengo,Neo Química Arena,01/09,Domingo,16:00
+25,Fluminense,2,0,São Paulo,Maracanã,01/09,Domingo,18:30
+25,Bragantino,2,1,Bahia,Nabi Abi Chedid,01/09,Domingo,18:30
+25,Athletico-PR,0,2,Palmeiras,Ligga Arena,01/09,Domingo,18:30
+25,Juventude,1,3,Internacional,Alfredo Jaconi,01/09,Domingo,18:30
+25,Vitória,0,1,Vasco,Barradão,01/09,Domingo,18:30
+26,Atlético-GO,0,2,Vitória,Antônio Accioly,14/09,Sábado,16:00
+26,Athletico-PR,1,1,Fortaleza,Ligga Arena,14/09,Sábado,18:30
+26,Botafogo,2,1,Corinthians,Nilton Santos (Engenhão),14/09,Sábado,21:00
+26,Palmeiras,5,0,Criciúma,Allianz Parque,15/09,Domingo,16:00
+26,Cruzeiro,0,1,São Paulo,Mineirão,15/09,Domingo,18:30
+26,Juventude,2,1,Fluminense,Alfredo Jaconi,15/09,Domingo,16:00
+26,Bahia,3,0,Atlético-MG,Casa de Apostas Arena Fonte Nova,15/09,Domingo,18:30
+26,Flamengo,1,1,Vasco,Maracanã,15/09,Domingo,18:30
+26,Internacional,3,0,Cuiabá,Beira Rio,16/09,Ontem,20:00
+26,Bragantino,2,2,Grêmio,Nabi Abi Chedid,15/09,Domingo,16:00
+27,Vitória,1,0,Juventude,Barradão,21/09,Sábado,16:00
+27,Corinthians,3,0,Atlético-GO,Neo Química Arena,21/09,Sábado,16:00
+27,Fluminense,0,1,Botafogo,Maracanã,21/09,Sábado,18:30
+27,Fortaleza,4,1,Bahia,Castelão (CE),21/09,Sábado,21:00
+27,Atlético-MG,3,0,Bragantino,Arena MRV,22/09,Domingo,16:00
+27,Grêmio,3,2,Flamengo,Arena do Grêmio,22/09,Domingo,18:30
+27,São Paulo,1,3,Internacional,Morumbis,22/09,Domingo,18:30
+27,Cuiabá,0,0,Cruzeiro,Arena Pantanal,22/09,Domingo,18:30
+27,Criciúma,0,0,Athletico-PR,Heriberto Hülse,22/09,Domingo,20:00
+27,Vasco,0,1,Palmeiras,Mané Garrincha,22/09,Domingo,16:00
+28,Palmeiras,2,1,Atlético-MG,Brinco de Ouro,28/09,Sábado,18:30
+28,Botafogo,0,0,Grêmio,Mané Garrincha,28/09,Sábado,21:00
+28,Juventude,1,1,Bragantino,Alfredo Jaconi,29/09,Ontem,11:00
+28,São Paulo,3,1,Corinthians,Mané Garrincha,29/09,Ontem,16:00
+28,Internacional,3,1,Vitória,Beira-Rio,29/09,Ontem,18:30
+28,Atlético-GO,1,0,Fluminense,Antônio Accioly,29/09,Ontem,16:00
+28,Cruzeiro,1,1,Vasco,Mineirão,29/09,Ontem,18:30
+28,Bahia,1,0,Criciúma,Casa de Apostas Arena Fonte Nova,29/09,Ontem,18:30
+28,Flamengo,1,0,Athletico-PR,Maracanã,29/09,Ontem,20:00
+28,Fortaleza,1,0,Cuiabá,Castelão (CE),29/09,Ontem,16:00
+29,Vasco,1,1,Juventude,São Januário,05/10,Sábado,21:00
+29,Cuiabá,2,0,São Paulo,Arena Pantanal,05/10,Sábado,19:00
+29,Corinthians,2,2,Internacional,Neo Química Arena,05/10,Sábado,19:00
+29,Bahia,0,2,Flamengo,Casa de Apostas Arena Fonte Nova,05/10,Sábado,19:00
+29,Athletico-PR,0,1,Botafogo,Ligga Arena,05/10,Sábado,16:30
+29,Bragantino,0,0,Palmeiras,Nabi Abi Chedid,05/10,Sábado,16:30
+29,Atlético-MG,2,2,Vitória,Arena MRV,05/10,Sábado,16:30
+29,Grêmio,3,1,Fortaleza,Arena do Grêmio,04/10,Sexta,21:30
+29,Fluminense,1,0,Cruzeiro,Maracanã,03/10,Quinta,21:30
+29,Criciúma,2,0,Atlético-GO,Heriberto Hülse,03/10,Quinta,19:00
+30,Juventude,3,5,Palmeiras,Alfredo Jaconi,20/10,Domingo,21:00
+30,Vitória,1,0,Bragantino,Barradão,19/10,Sábado,17:00
+30,Internacional,1,0,Grêmio,Beira Rio,19/10,Sábado,17:00
+30,Cruzeiro,1,1,Bahia,Mineirão,18/10,Sexta,22:30
+30,Botafogo,1,1,Criciúma,Mané Garrincha,18/10,Sexta,21:00
+30,Atlético-MG,0,0,Cuiabá,Arena MRV,18/10,Sexta,20:00
+30,Corinthians,5,2,Athletico-PR,Neo Química Arena,17/10,Quinta,21:00
+30,Flamengo,0,2,Fluminense,Maracanã,17/10,Quinta,21:00
+30,Fortaleza,1,1,Atlético-MG,Castelão (CE),16/10,Quarta,22:45
+30,São Paulo,3,0,Vasco,Morumbis,16/10,Quarta,22:45
+31,Vasco,3,2,Bahia,São Januário,28/10,Segunda,21:00
+31,Cuiabá,0,1,Corinthians,Arena Pantanal,28/10,Segunda,20:00
+31,Criciúma,1,1,São Paulo,Heriberto Hülse,26/10,Sábado,23:00
+31,Atlético-MG,1,3,Internacional,Arena MRV,26/10,Sábado,20:00
+31,Bragantino,0,1,Botafogo,Nabi Abi Chedid,26/10,Sábado,20:00
+31,Athletico-PR,3,0,Cruzeiro,Ligga Arena,26/10,Sábado,19:30
+31,Vitória,2,1,Fluminense,Barradão,26/10,Sábado,17:30
+31,Palmeiras,2,2,Fortaleza,Allianz Parque,26/10,Sábado,17:30
+31,Grêmio,3,1,Atlético-GO,Arena do Grêmio,26/10,Sábado,17:30
+31,Flamengo,4,2,Juventude,Maracanã,26/10,Sábado,17:30
+32,Atlético-GO,1,0,Atlético-MG,Antônio Accioly,6/11,Quarta,21:00
+32,Cruzeiro,0,1,Flamengo,Mineirão,6/11,Quarta,21:00
+32,Internacional,2,0,Criciúma,Beira Rio,5/11,Terça,21:30
+32,Bahia,0,3,São Paulo,Casa de Apostas Arena Fonte Nova,5/11,Terça,21:30
+32,Botafogo,3,0,Vasco,Mané Garrincha,5/11,Terça,21:30
+32,Corinthians,2,0,Palmeiras,Allianz Parque,4/11,Segunda,20:00
+32,Juventude,0,3,Fortaleza,Alfredo Jaconi,2/11,Sábado,18:30
+32,Athletico-PR,1,2,Vitória,Ligga Arena,2/11,Sábado,18:30
+32,Bragantino,0,0,Cuiabá,Nabi Abi Chedid,2/11,Sábado,16:00
+32,Fluminense,2,2,Grêmio,Maracanã,1/11,Sexta,21:00
+33,São Paulo,2,1,Athletico-PR,Morumbis,9/11,Sábado,21:00
+33,Atlético-GO,0,0,Bragantino,Antônio Accioly,9/11,Sábado,19:00
+33,Cruzeiro,2,1,Criciúma,Mineirão,9/11,Sábado,19:00
+33,Fortaleza,3,0,Vasco,Castelão (CE),9/11,Sábado,19:00
+33,Juventude,2,1,Bahia,Alfredo Jaconi,9/11,Sábado,19:00
+33,Botafogo,0,0,Cuiabá,Mané Garrincha,9/11,Sábado,16:30
+33,Vitória,1,2,Corinthians,Barradão,9/11,Sábado,16:30
+33,Palmeiras,1,0,Grêmio,Allianz Parque,8/11,Sexta,21:30
+33,Internacional,2,0,Fluminense,Beira Rio,8/11,Sexta,19:00
