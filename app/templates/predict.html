@@ -3,48 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard do Campeonato Brasileiro</title>
+    <title>Previsão de Jogos</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 <body>
     <header>
-        <h1>Dashboard do Campeonato Brasileiro</h1>
-        <p><a href="{{ url_for('predict') }}" class="button-link">Ir para Previsão</a></p>
+        <h1>Previsão de Jogos - Campeonato Brasileiro</h1>
+        <p><a href="{{ url_for('dashboard') }}" class="button-link">Ir para Home</a></p>
+
     </header>
 
     <main>
         <div class="content">
-            <h2>Estatísticas Gerais</h2>
-            <div class="estatisticas-container">
-                <div class="estatisticas-box">
-                    <p><strong>Taxa de vitórias dos mandantes:</strong> {{ estatisticas['vitorias_mandantes']|round(2) }}%</p>
-                    <p><strong>Taxa de empates:</strong> {{ estatisticas['empates']|round(2) }}%</p>
-                    <p><strong>Taxa de vitórias dos visitantes:</strong> {{ estatisticas['vitorias_visitantes']|round(2) }}%</p>
-                </div>
-        
-                <div class="placares-box">
-                    <h3>Placar mais frequente</h3>
-                    <ul>
-                        {% for placar, freq in estatisticas['placares_freq'] %}
-                            <li>{{ placar }}: {{ freq }} vezes</li>
-                        {% endfor %}
-                    </ul>
-                </div>
-            </div>
-        
-            <h2>Gráfico de Resultados</h2>
-            <img src="data:image/png;base64,{{ img_barras }}" alt="Gráfico de Resultados">
-
-            <h2>Top 10 Times com Mais Vitórias</h2>
-            <img src="data:image/png;base64,{{ img_pizza }}" alt="Gráfico de Pizza - Vitórias">
-        
-            <h2>Classificação Atual</h2>
-            <div class="classificacao">
-                {{ classificacao_html | safe }}
-            </div>        
-
-            
-            <h2>Próximos Jogos</h2>
+            <h2>Previsão dos Jogos</h2>
 
             <form method="get" action="">
                 <label for="rodada">Filtrar por Rodada:</label>
@@ -56,7 +27,7 @@
                 </select>
                 <button type="submit" class="btn btn-primary">Filtrar</button>
             </form>
-            
+
             <table class="table table-striped">
                 <thead>
                     <tr>
@@ -64,21 +35,24 @@
                         <th>Mandante</th>
                         <th>Visitante</th>
                         <th>Data</th>
+                        <th>Placar Previsto Mandante</th>
+                        <th>Placar Previsto Visitante</th>
                     </tr>
                 </thead>
                 <tbody>
-                    {% for index, row in partidas_nao_realizadas.iterrows() %}
+                    {% for index, row in previsao_partidas.iterrows() %}
                     <tr>
                         <td>{{ row['Rodada'] }}</td>
                         <td>{{ row['Mandante'] }}</td>
                         <td>{{ row['Visitante'] }}</td>
                         <td>{{ row['Data'] }}</td>
+                        <td>{{ row['Placar_Mandante_Previsto'] }}</td>
+                        <td>{{ row['Placar_Visitante_Previsto'] }}</td>
                     </tr>
                     {% endfor %}
                 </tbody>
             </table>
-            
-
+        </div>
     </main>
 
     <footer>

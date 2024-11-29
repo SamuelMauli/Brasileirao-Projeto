@@ -1,0 +1,52 @@
+Rodada,Mandante,Visitante,Data,Placar_Mandante_Previsto,Placar_Visitante_Previsto
+33,Flamengo,Atlético-MG,13/11,1,1
+34,Grêmio,Juventude,20/11,2,2
+34,Atlético-MG,Botafogo,20/11,1,1
+34,Bahia,Palmeiras,20/11,1,3
+34,Fluminense,Fortaleza,20/11,1,2
+34,Vasco,Internacional,20/11,1,2
+34,Corinthians,Cruzeiro,20/11,1,1
+34,Bragantino,São Paulo,20/11,1,3
+34,Athletico-PR,Atlético-GO,20/11,1,1
+34,Cuiabá,Flamengo,20/11,1,2
+34,Criciúma,Vitória,20/11,1,2
+35,Internacional,Bragantino,24/11,1,1
+35,Cruzeiro,Grêmio,24/11,1,2
+35,Bahia,Athletico-PR,24/11,1,1
+35,Fluminense,Criciúma,24/11,1,1
+35,Botafogo,Vitória,24/11,1,2
+35,Corinthians,Vasco,24/11,1,2
+35,São Paulo,Atlético-MG,24/11,2,1
+35,Fortaleza,Flamengo,24/11,1,2
+35,Atlético-GO,Palmeiras,24/11,1,2
+35,Juventude,Cuiabá,24/11,1,1
+36,Grêmio,São Paulo,01/12,2,3
+36,Atlético-MG,Juventude,01/12,1,2
+36,Vitória,Fortaleza,01/12,1,2
+36,Flamengo,Internacional,01/12,1,2
+36,Vasco,Atlético-GO,01/12,2,1
+36,Palmeiras,Botafogo,01/12,2,1
+36,Bragantino,Cruzeiro,01/12,1,1
+36,Athletico-PR,Fluminense,01/12,0,2
+36,Cuiabá,Bahia,01/12,1,1
+36,Criciúma,Corinthians,01/12,1,1
+37,Internacional,Botafogo,04/12,2,1
+37,Cruzeiro,Palmeiras,04/12,1,3
+37,Vitória,Grêmio,04/12,1,2
+37,Fluminense,Cuiabá,04/12,1,1
+37,Vasco,Atlético-MG,04/12,2,1
+37,Corinthians,Bahia,04/12,1,1
+37,São Paulo,Juventude,04/12,1,2
+37,Athletico-PR,Bragantino,04/12,0,1
+37,Atlético-GO,Fortaleza,04/12,1,2
+37,Criciúma,Flamengo,04/12,1,2
+38,Grêmio,Corinthians,08/12,2,1
+38,Atlético-MG,Athletico-PR,08/12,1,1
+38,Bahia,Atlético-GO,08/12,1,1
+38,Flamengo,Vitória,08/12,2,2
+38,Botafogo,São Paulo,08/12,1,3
+38,Palmeiras,Fluminense,08/12,1,2
+38,Bragantino,Criciúma,08/12,1,1
+38,Fortaleza,Internacional,08/12,1,2
+38,Cuiabá,Vasco,08/12,1,2
+38,Juventude,Cruzeiro,08/12,1,1
