@@ -12,6 +12,15 @@ partidas_nao_realizadas = pd.read_csv("datasets/Partidas_Nao_Realizadas.csv")
 classificacao = pd.read_csv("datasets/Classificacao.csv")
 previcao = pd.read_csv("datasets/previcao.csv")  # Carregando o arquivo de previsões
 
+####################################################################################################################################################################################
+
+# calcular_estatisticas(partidas)
+# Calcula estatísticas básicas sobre os jogos realizados.
+# Determina o percentual de:
+# Vitórias dos mandantes.
+# Empates.
+# Vitórias dos visitantes.
+# Identifica os 5 placares mais frequentes.
 
 
 def calcular_estatisticas(partidas):
@@ -30,6 +39,16 @@ def calcular_estatisticas(partidas):
     estatisticas['placares_freq'] = placares_freq
 
     return estatisticas
+
+####################################################################################################################################################################################
+
+# gerar_grafico_barras(partidas)
+# Gera um gráfico de barras mostrando a distribuição dos resultados:
+# Vitórias dos mandantes.
+# Vitórias dos visitantes.
+# Empates.
+# Usa os placares para categorizar os resultados.
+# Retorna o gráfico em formato Base64, que pode ser exibido em uma página web.
 
 
 def gerar_grafico_barras(partidas):
@@ -55,20 +74,37 @@ def gerar_grafico_barras(partidas):
 
     return img_base64
 
-def gerar_grafico_pizza():
-    # Agrupando os dados por time e somando o número de vitórias
-    vitorias_por_time = classificacao.groupby('Time')['Vitorias'].sum()
 
-    # Selecionando os 10 times com mais vitórias
-    top_10_vitorias = vitorias_por_time.sort_values(ascending=False).head(10)
+####################################################################################################################################################################################
+
+# gerar_grafico_pizza()
+# Cria um gráfico de pizza dos 10 times com mais vitórias como mandantes.
+# Filtra os jogos onde os mandantes venceram.
+# Conta o número de vitórias para cada time e seleciona os 10 principais.
+# Retorna o gráfico em formato Base64.
+
+def gerar_grafico_pizza():
+    # Filtrando os jogos onde o mandante venceu
+    vitorias_mandantes = partidas_realizadas[partidas_realizadas['Placar_Mandante'] > partidas_realizadas['Placar_Visitante']]
+
+    # Contando o número de vitórias para cada mandante
+    vitorias_por_time = vitorias_mandantes['Mandante'].value_counts()
+
+    # Selecionando os 10 times com mais vitórias como mandantes
+    top_10_vitorias = vitorias_por_time.head(10)
 
     # Criando o gráfico de pizza
     plt.figure(figsize=(8, 8))
-    plt.pie(top_10_vitorias, labels=top_10_vitorias.index, autopct='%1.1f%%', startangle=155,
-            colors=sns.color_palette("pastel"))
-    plt.title("Top 10 Times com Mais Vitórias")
+    plt.pie(
+        top_10_vitorias,
+        labels=top_10_vitorias.index,
+        autopct='%1.1f%%',
+        startangle=155,
+        colors=sns.color_palette("pastel")
+    )
+    plt.title("Top 10 Times com Mais Vitórias como Mandantes")
 
-    # Salvar o gráfico em memória
+    # Salvando o gráfico em memória
     img = BytesIO()
     plt.savefig(img, format='png')
     img.seek(0)
@@ -78,6 +114,11 @@ def gerar_grafico_pizza():
     return img_base64
 
 
+####################################################################################################################################################################################
+
+# gerar_classificacao_top_10()
+# Filtra as rodadas da classificação oficial (1 a 38).
+# Retorna os 10 primeiros times classificados, ordenados por pontos.
 
 
 def gerar_classificacao_top_10():
@@ -85,6 +126,12 @@ def gerar_classificacao_top_10():
     top_10_classificacao = classificacao_2024.sort_values(by='Pontos', ascending=False).head(10)
     return top_10_classificacao
 
+
+####################################################################################################################################################################################
+
+# gerar_classificacao()
+# Obtém a classificação da última rodada registrada.
+# Retorna a tabela de classificação em formato HTML para ser exibida em uma página web.
 
 def gerar_classificacao():
     ultima_rodada = classificacao['Rodada'].max()
@@ -102,6 +149,17 @@ partidas_realizadas = pd.read_csv("datasets/Partidas_Realizadas.csv")
 partidas_nao_realizadas = pd.read_csv("datasets/Partidas_Nao_Realizadas.csv")
 classificacao = pd.read_csv("datasets/Classificacao.csv")
 previcao = pd.read_csv("datasets/previcao.csv")
+
+####################################################################################################################################################################################
+
+# gerar_previsoes()
+# Lê os dados de partidas realizadas e não realizadas.
+# Converte as colunas categóricas (Mandante, Visitante, Estádio) em valores numéricos.
+# Treina dois modelos RandomForestRegressor para prever os placares dos mandantes e visitantes.
+# Faz previsões para partidas não realizadas.
+# Decodifica os valores categóricos de volta para os nomes originais.
+# Salva as previsões em um arquivo CSV.
+
 
 # Gera Previsões 
 def gerar_previsoes():
@@ -183,6 +241,13 @@ def gerar_previsoes():
     dados_nao_realizados.to_csv(arquivo_saida, index=False)
 
 
+####################################################################################################################################################################################
+
+# predict()
+# Rota da API para exibir as previsões de partidas.
+# Obtém as rodadas disponíveis e filtra a rodada selecionada pelo usuário.
+# Renderiza a página predict.html com as partidas previstas.
+
 @app.route('/predict', methods=['GET'])
 def predict():
     rodadas_disponiveis = previcao['Rodada'].unique().tolist()
@@ -197,6 +262,18 @@ def predict():
                            previsao_partidas=previsao_partidas,
                            rodadas=rodadas_disponiveis,
                            selected_rodada=selected_rodada)
+
+
+####################################################################################################################################################################################
+
+# dashboard()
+# Rota principal da API.
+# Filtra partidas não realizadas com base na rodada selecionada.
+# Calcula estatísticas gerais dos jogos realizados.
+# Gera gráficos de barras e pizza.
+# Obtém a classificação oficial e o top 10 times.
+# Renderiza a página dashboard.html com todas as informações e gráficos.
+
 
 @app.route('/', methods=['GET'])
 def dashboard():
