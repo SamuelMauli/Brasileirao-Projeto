@@ -141,15 +141,6 @@ def gerar_classificacao():
     return classificacao_html.to_html(classes='table table-striped', index=False)
 
 
-partidas_nao_realizadas = pd.read_csv("datasets/Partidas_Nao_Realizadas.csv")
-
-
-# Carregar os datasets
-partidas_realizadas = pd.read_csv("datasets/Partidas_Realizadas.csv")
-partidas_nao_realizadas = pd.read_csv("datasets/Partidas_Nao_Realizadas.csv")
-classificacao = pd.read_csv("datasets/Classificacao.csv")
-previcao = pd.read_csv("datasets/previcao.csv")
-
 ####################################################################################################################################################################################
 
 # gerar_previsoes()
