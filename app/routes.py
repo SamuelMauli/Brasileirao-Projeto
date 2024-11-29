@@ -103,6 +103,7 @@ partidas_nao_realizadas = pd.read_csv("datasets/Partidas_Nao_Realizadas.csv")
 classificacao = pd.read_csv("datasets/Classificacao.csv")
 previcao = pd.read_csv("datasets/previcao.csv")
 
+# Gera Previsões 
 def gerar_previsoes():
     partidas_realizadas = "Partidas_Realizadas.csv"
     partidas_nao_realizadas = "Partidas_Nao_Realizadas.csv"
